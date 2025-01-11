@@ -1,0 +1,92 @@
+[
+  {
+    "key" : "secondProduct",
+    "value" : "//*[@id=\"content\"]/ul/li[2]",
+    "type" : "xpath"
+  },
+  {
+    "key" : "productText",
+    "value" : "product_title",
+    "type" : "className"
+  },
+  {
+    "key" : "addToCart",
+    "value" : "add-to-cart",
+    "type" : "name"
+  },
+  {
+    "key" : "productAddedMessage",
+    "value" : "woocommerce-message",
+    "type" : "className"
+  },
+  {
+    "key" : "basketButton",
+    "value" : "ql_cart-btn",
+    "type" : "className"
+  },
+  {
+    "key" : "goToPaymentPage",
+    "value" : "//a[@class='checkout-button button alt wc-forward']",
+    "type" : "xpath"
+  },
+  {
+    "key" : "selectPaymentWithCard",
+    "value" : "//label[@for='payment_method_iyzico']",
+    "type" : "xpath"
+  },
+  {
+    "key" : "paymentText",
+    "value" : "page-title",
+    "type" : "className"
+  },
+  {
+    "key" : "payWithSelectedPayment",
+    "value" : "place_order",
+    "type" : "id"
+  },
+  {
+    "key" : "cardHolderName",
+    "value" : "ccname",
+    "type" : "id"
+  },
+  {
+    "key" : "cardNumber",
+    "value" : "ccnumber",
+    "type" : "id"
+  },
+  {
+  "key" : "expiryDate",
+  "value" : "ccexp",
+  "type" : "id"
+  },
+  {
+  "key" : "cvcNumber",
+  "value" : "cccvc",
+  "type" : "id"
+  },
+  {
+  "key" : "payButton",
+  "value" : "iyz-payment-button",
+  "type" : "id"
+  },
+  {
+  "key" : "smsCodeText",
+  "value" : "//p[@class='help-block']",
+  "type" : "xpath"
+  },
+  {
+    "key" : "smsCodeTextBox",
+    "value" : "smsCode",
+    "type" : "id"
+  },
+  {
+    "key" : "submitButton",
+    "value" : "submitBtn",
+    "type" : "id"
+  },
+  {
+    "key" : "orderCompletedText",
+    "value" : "//h1[@class='page-title']",
+    "type" : "xpath"
+  }
+]
