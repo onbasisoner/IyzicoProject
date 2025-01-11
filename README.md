@@ -16,7 +16,7 @@ Driver yapısı:
 Element ve test case yazımı:
 -Elementlerim için [json](src/test/resources/elements/mainPage.json) dosyası kullanıyorum. Düzenli ve daha kolay ulasılabilir olmasını saglıyor.
 -JSON dosyasına eklenecek elementler için [elementHelper](src/test/java/utils/helpers/elementHelper) classlarını kullanıyorum. Basitçe [elements](src/test/java/utils/helpers/elementHelper/Elements.java) dosyamda typeları alıyorum. 4 tane ekledim ama başka BY fonksiyonları da eklenebilir CSS selector gibi.
--[Helper](src/test/java/utils/helpers/Helper.java#L113) classım içindeki getBy fonksiyonum ile jsondaki elementlerimi projeye bağlıyorum.
+-[Helper](src/test/java/utils/helpers/Helper.java#L96) classım içindeki getBy fonksiyonum ile jsondaki elementlerimi projeye bağlıyorum.
 -Okunabilirliği artırmak için de Test caselerde jsonda verdiğim isimleri kullanıyorum.
 
 Test koşumu ve raporlar:
